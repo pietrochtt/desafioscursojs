@@ -91,10 +91,10 @@ console.table(addProductToCart(1,5));
 console.table(addProductToCart(7,3));
 console.table(delProductToCart(7,3));
 console.table(products)
-// const cupon = prompt("Ingrese su cupon de descuento").toUpperCase();
-// console.table(addCupon(cupon));
-// console.table(precioTotal());
-// const inputProd = prompt("Ingrese el nombre del producto que desea buscar").toUpperCase();
-// console.table(searchProduts(inputProd));
+const cupon = prompt("Ingrese su cupon de descuento").toUpperCase();
+console.table(addCupon(cupon));
+console.table(precioTotal());
+const inputProd = prompt("Ingrese el nombre del producto que desea buscar").toUpperCase();
+console.table(searchProduts(inputProd));
 
 
