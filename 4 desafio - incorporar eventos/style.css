@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonUser{
+    margin: 10px;
+    padding: 7px;
+    background: #0095ff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.ocultarUser{
+    display: none;
+}
+.carta{
+    width: 280px;
+    height: auto;
+    margin: 20px;
+    color: #e7e7e7;
+    background-color: #222222;
+    border-radius: 4px;
+    overflow: hidden;    
+}
+.carta h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: #e7e7e7;
+    color: #222222;
+}
+.cartaInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.cartaInfo h3{
+    font-size: 25px;
+}
+.cartaInfo span{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.cartaInfo p{
+    margin: 0;
+    padding: 0;
+}
